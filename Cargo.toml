@@ -1,0 +1,10 @@
+[package]
+name = "line_sampler"
+version = "0.1.0"
+authors = ["aaronmck <aaronatwpi@gmail.com>"]
+
+[dependencies]
+flate2 = "1.0"
+itertools = "0.8"
+clap = { features = ["yaml", "suggestions", "color"] }
+rand = "0.3"
