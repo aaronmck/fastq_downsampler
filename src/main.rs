@@ -91,7 +91,7 @@ fn main() {
                 write!(outw1, "{}\n", c.unwrap());
             }
             for c in chunk2 {
-                outw2.write(c.unwrap().as_bytes());
+                write!(outw2, "{}\n", c.unwrap());
             }
         }
     }
